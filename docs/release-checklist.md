@@ -18,6 +18,9 @@
 
 - Public repository: https://github.com/Fanyd271/ST-GRAPE.
 - CI results: https://github.com/Fanyd271/ST-GRAPE/actions.
+- Linux and Windows checks passed for the initial release commit, including
+  tests, archive verification, the numerical demo, plotting, citation validation
+  and package building. The exact run is recorded in `verification.json`.
 - Versioned downloads: https://github.com/Fanyd271/ST-GRAPE/releases.
 - Long-term archiving and a separate software/data DOI remain optional follow-up work.
 - The manuscript DAS can now reference the public repository; it is not edited by this release.

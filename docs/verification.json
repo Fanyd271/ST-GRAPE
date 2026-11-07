@@ -16,7 +16,7 @@
   },
   "pytest": {
     "passed": 121,
-    "seconds": 8.38,
+    "seconds": 8.73,
     "failures": 0
   },
   "ruff": "passed",
@@ -48,11 +48,15 @@
     "all_unchanged": true,
     "git_status_unchanged": true
   },
-  "hosted_ci": "Windows/Linux run results are recorded at https://github.com/Fanyd271/ST-GRAPE/actions",
+  "hosted_ci": {
+    "url": "https://github.com/Fanyd271/ST-GRAPE/actions/runs/42336399493",
+    "checked_commit": "1985cd1affb08e2548976ccda15b3adea8ac6fcc",
+    "ubuntu-latest": "success",
+    "windows-latest": "success"
+  },
   "public_repository": "https://github.com/Fanyd271/ST-GRAPE",
   "not_run": [
     "Full-size optimizations and new Monte Carlo propagation for publication data",
-    "Hosted CI",
     "Software/data DOI registration"
   ],
   "licensing": {
