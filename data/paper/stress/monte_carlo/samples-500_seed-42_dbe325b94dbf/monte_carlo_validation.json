@@ -1,0 +1,57 @@
+{
+  "completed": {
+    "9q": {
+      "seed0": [
+        "initial",
+        "ST",
+        "block-sparse",
+        "dense"
+      ],
+      "seed1": [
+        "initial",
+        "ST",
+        "block-sparse",
+        "dense"
+      ],
+      "seed2": [
+        "initial",
+        "ST",
+        "block-sparse",
+        "dense"
+      ],
+      "seed3": [
+        "initial",
+        "ST",
+        "block-sparse",
+        "dense"
+      ],
+      "seed4": [
+        "initial",
+        "ST",
+        "block-sparse",
+        "dense"
+      ]
+    }
+  },
+  "configuration_hash": "dbe325b94dbf",
+  "experiment": "Experiment 03 post-run Monte Carlo validation",
+  "methods": [
+    "ST",
+    "dense",
+    "block-sparse"
+  ],
+  "optimization_rerun": false,
+  "samples_per_control": 500,
+  "sampling_configuration": {
+    "colored_noise_sampling": "auto",
+    "samples_per_control": 500,
+    "sampling_api": "sample_fidelities-v1",
+    "sampling_seed": 42,
+    "schema_version": 2,
+    "source_configuration_sha256": "7c2c560dad1cfcc6221b786c10860ec7138435703a432f33ccce63e0fbec0849"
+  },
+  "sampling_seed": 42,
+  "sampling_workers": 8,
+  "schema_version": 2,
+  "source_result_root": "data/paper/stress"
+}

@@ -1,0 +1,49 @@
+{
+  "augmented_block_counts": [
+    5
+  ],
+  "baseline_trace_fields": [
+    "fidelity_loss_history",
+    "robustness_penalty_history"
+  ],
+  "coupling": "XX+YY",
+  "duration_us": 0.2,
+  "exact_check_interval": null,
+  "experiment": "C fixed-budget large-system stress test",
+  "hilbert_dimension": 512,
+  "initial_pulse_path": null,
+  "initial_seed_path": "data/initial_controls/stress/state/9q/seed1/result.npz",
+  "initial_source": "generated",
+  "n_qubits": 9,
+  "optimization_time_limit_hours": 10.0,
+  "p1_coefficient": 1.0,
+  "periodic_true_loss_enabled": false,
+  "post_run_monte_carlo_samples": 0,
+  "robustness_order": 1,
+  "sampling_seed": 42,
+  "seed": 1,
+  "st_final_reference_outside_optimization_time": true,
+  "st_true_loss_mode": "final-only",
+  "static_coupling_pairs": [
+    [
+      1,
+      2
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      7,
+      8
+    ]
+  ],
+  "static_standard_deviation_mhz": 1.0,
+  "task": "ghz",
+  "taylor_sources": 4,
+  "time_step_us": 0.0005
+}

@@ -1,0 +1,11 @@
+task,n_qubits,coupling,seed,initialization_seed,attempt,nominal_loss,nominal_fidelity,error_bound,accepted,wall_time_s,iterations,success,result
+state,9,XX+YY,0,0,1,1.6711592110141282e-09,0.9999999983288408,0.01,True,4943.5433182000415,183,True,results\new_experiments\exp00_nominal_seeds\qft_XX_YY_9q_200ns\state\9q\seed0\result.npz
+state,9,XX+YY,1,1,1,1.2773806457033743e-09,0.9999999987226194,0.01,True,5148.495234199916,196,True,results\new_experiments\exp00_nominal_seeds\qft_XX_YY_9q_200ns\state\9q\seed1\result.npz
+state,9,XX+YY,2,2,1,1.989782116851302e-09,0.9999999980102179,0.01,True,4963.302053199965,183,True,results\new_experiments\exp00_nominal_seeds\qft_XX_YY_9q_200ns\state\9q\seed2\result.npz
+state,9,XX+YY,3,3,1,6.34143278999133e-08,0.9999999365856721,0.01,True,3737.1188069998752,156,True,results\new_experiments\exp00_nominal_seeds\qft_XX_YY_9q_200ns\state\9q\seed3\result.npz
+state,9,XX+YY,4,4,1,1.7940602337063183e-09,0.9999999982059398,0.01,True,4132.865574900061,181,True,results\new_experiments\exp00_nominal_seeds\qft_XX_YY_9q_200ns\state\9q\seed4\result.npz
+state,9,XX+YY,5,5,1,2.138975441212665e-09,0.9999999978610246,0.01,True,6513.742376400158,175,True,results\new_experiments\exp00_nominal_seeds\qft_XX_YY_9q_200ns\state\9q\seed5\result.npz
+state,9,XX+YY,6,6,1,9.744599349659211e-09,0.9999999902554007,0.01,True,5907.075901899952,162,True,results\new_experiments\exp00_nominal_seeds\qft_XX_YY_9q_200ns\state\9q\seed6\result.npz
+state,9,XX+YY,7,7,1,1.7689256726072244e-09,0.9999999982310743,0.01,True,6666.859588700114,189,True,results\new_experiments\exp00_nominal_seeds\qft_XX_YY_9q_200ns\state\9q\seed7\result.npz
+state,9,XX+YY,8,8,1,1.9141832563462913e-09,0.9999999980858167,0.01,True,6750.8630521998275,193,True,results\new_experiments\exp00_nominal_seeds\qft_XX_YY_9q_200ns\state\9q\seed8\result.npz
+state,9,XX+YY,9,9,1,1.4332293130081553e-09,0.9999999985667707,0.01,True,6535.35364830005,186,True,results\new_experiments\exp00_nominal_seeds\qft_XX_YY_9q_200ns\state\9q\seed9\result.npz

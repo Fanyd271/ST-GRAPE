@@ -1,0 +1,33 @@
+{
+  "initial_true_loss": 0.9752200582112761,
+  "method": "dense",
+  "sampling": {
+    "mean_fidelity": 0.6862770622482975,
+    "median_fidelity": 0.8052030512085336,
+    "minimum_fidelity": 0.11111569540306689,
+    "std_fidelity": 0.29858183144817946
+  },
+  "sensitivity_diagnostics": {
+    "final": {
+      "evaluated_order": 2,
+      "hybrid_p1_base": 0.0015093892120593754,
+      "p1": 0.03885085857557559,
+      "p1_squared": 0.0015093892120593754,
+      "p2": 1.547147866399906,
+      "reference": "exact-ode-block-sparse",
+      "rhs_evaluations": 10392
+    },
+    "initial": {
+      "evaluated_order": 2,
+      "hybrid_p1_base": 19.216230493654432,
+      "p1": 4.383632112033859,
+      "p1_squared": 19.216230493654432,
+      "p2": 23.75906829754786,
+      "reference": "exact-ode-block-sparse",
+      "rhs_evaluations": 10260
+    }
+  },
+  "true_loss": 0.0006833619004904973,
+  "true_objective": 0.9993166380995095,
+  "wall_time_s": 4657.076663799991
+}

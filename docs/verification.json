@@ -1,0 +1,62 @@
+{
+  "release": "1.0.0",
+  "check_date": "2026-11-07",
+  "python": "3.12.14",
+  "platform": "macOS-15.6.1-arm64-arm-64bit",
+  "packages": {
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "qutip": "5.3.1",
+    "matplotlib": "3.11.2",
+    "Pillow": "13.0.0",
+    "pytest": "9.2.0",
+    "ruff": "0.17.4",
+    "pyright": "1.1.414",
+    "cffconvert": "2.0.0"
+  },
+  "pytest": {
+    "passed": 121,
+    "seconds": 8.38,
+    "failures": 0
+  },
+  "ruff": "passed",
+  "ruff_format": "passed",
+  "pyright": "0 errors, 0 warnings",
+  "citation_schema": "CFF 1.2.0 validated",
+  "data": {
+    "verified_files": 974,
+    "verified_table_values": 76,
+    "stress_seeds": 5,
+    "stress_samples_per_control": 500,
+    "paper_doi": "10.1103/959l-ms9v"
+  },
+  "plotting": {
+    "paper_figures": "Figs. 2-6 regenerated from saved data; Fig. 1 copied",
+    "supplementary": "GHZ/QFT exponential-action scaling and uncertainty-strength scans regenerated",
+    "visual_review": "five paper numerical figures and the paired strength scan inspected"
+  },
+  "notebooks": "Four notebooks structurally validated with stable cell IDs and no execution output; all renderer functions tested.",
+  "runtime_smoke_checks": [
+    "three-method numerical demo",
+    "GHZ robustness smoke",
+    "block-scaling smoke",
+    "QFT dimension-scaling smoke"
+  ],
+  "wheel": "independent install outside source checkout: import, archive verification, numerical demo and GHZ scaling plot passed",
+  "original_project": {
+    "substantive_files_sha256_checked": 3927,
+    "all_unchanged": true,
+    "git_status_unchanged": true
+  },
+  "hosted_ci": "Windows/Linux run results are recorded at https://github.com/Fanyd271/ST-GRAPE/actions",
+  "public_repository": "https://github.com/Fanyd271/ST-GRAPE",
+  "not_run": [
+    "Full-size optimizations and new Monte Carlo propagation for publication data",
+    "Hosted CI",
+    "Software/data DOI registration"
+  ],
+  "licensing": {
+    "software": "MIT",
+    "data": "CC-BY-4.0"
+  }
+}

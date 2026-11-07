@@ -1,0 +1,54 @@
+{
+  "configuration": {
+    "coupling": "XX+YY",
+    "duration_us": 0.2,
+    "exact_check_interval_when_enabled": 25,
+    "exact_increase_absolute_tolerance": 1e-08,
+    "exact_increase_patience": 2,
+    "exact_increase_relative_tolerance": 0.001,
+    "initial_pulse_path": null,
+    "initial_seed_root": "data/initial_controls/stress",
+    "initial_source": "generated",
+    "max_iterations": 1000000,
+    "monte_carlo_samples_per_control": 0,
+    "ode_atol": null,
+    "ode_method": "dop853",
+    "ode_rtol": null,
+    "p1_coefficient": 1.0,
+    "periodic_true_loss_max_qubits": 8,
+    "robustness_order": 1,
+    "sampling_seed": 42,
+    "sampling_workers": 1,
+    "smoke": false,
+    "splitting_steps": 1,
+    "st_true_loss_mode": "final-only",
+    "static_coupling_pairs_by_size": {
+      "9": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          8
+        ]
+      ]
+    },
+    "static_noise": "independent fluctuations on selected nearest-neighbor couplings",
+    "static_standard_deviation_mhz": 1.0,
+    "task": "ghz",
+    "taylor_penalty_weight": 2.0,
+    "time_limit_hours": 10.0,
+    "time_step_us": 0.0005
+  },
+  "experiment": "C fixed-budget large-system stress test",
+  "schema_version": 1
+}

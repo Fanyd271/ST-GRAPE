@@ -1,0 +1,119 @@
+{
+  "augmented_block_counts": [
+    5
+  ],
+  "baseline_trace_fields": [
+    "fidelity_loss_history",
+    "robustness_penalty_history"
+  ],
+  "coupling": "XX+YY",
+  "duration_us": 0.2,
+  "end_to_end_wall_time_s": 36128.145191699965,
+  "exact_check_interval": null,
+  "experiment": "C fixed-budget large-system stress test",
+  "experiment_method": "dense",
+  "hilbert_dimension": 512,
+  "initial_pulse_path": null,
+  "initial_seed_path": "data/initial_controls/stress/state/9q/seed3/result.npz",
+  "initial_source": "generated",
+  "message": "time limit reached",
+  "method": "GRAPE",
+  "n_qubits": 9,
+  "numpy": "1.26.4",
+  "optimization": {
+    "algorithm": "grape",
+    "optimizer": {
+      "effective_max_function_evaluations": 2147483647,
+      "function_tolerance": 1e-14,
+      "gradient_tolerance": 1e-14,
+      "max_control_amplitude": 628.3185307179587,
+      "max_corrections": 20,
+      "max_function_evaluations": null,
+      "max_iterations": 1000000,
+      "method": "L-BFGS-B"
+    },
+    "propagation": {
+      "normalize_output": false,
+      "representation": "dense",
+      "solver": {
+        "atol": 1e-11,
+        "first_step": null,
+        "implementation": "scipy.integrate.solve_ivp",
+        "max_step": "inf",
+        "method": "dop853",
+        "preset": "qiskit-dop853-tight",
+        "rtol": 1e-09
+      }
+    },
+    "time_limit_seconds": 36000.0,
+    "trotter_splitting": {
+      "absolute_tolerance": 2e-05,
+      "adaptive": false,
+      "error_criterion": "absolute-plus-relative",
+      "initial_steps": 1,
+      "maximum_steps": 1,
+      "relative_tolerance": 0.15
+    },
+    "true_loss_safeguard": {
+      "absolute_tolerance": 1e-08,
+      "check_interval": null,
+      "final_evaluation": true,
+      "increase_patience": 2,
+      "relative_tolerance": 0.001
+    }
+  },
+  "optimization_time_limit_hours": 10.0,
+  "p1_coefficient": 1.0,
+  "periodic_true_loss_enabled": false,
+  "platform": "Windows-11-10.0.26200-SP0",
+  "post_run_monte_carlo_samples": 0,
+  "propagation": {
+    "normalize_output": false,
+    "representation": "dense",
+    "solver": {
+      "atol": 1e-11,
+      "first_step": null,
+      "implementation": "scipy.integrate.solve_ivp",
+      "max_step": "inf",
+      "method": "dop853",
+      "preset": "qiskit-dop853-tight",
+      "rtol": 1e-09
+    }
+  },
+  "python": "3.12.5 | packaged by Anaconda, Inc. | (main, Sep 12 2024, 18:18:29) [MSC v.1929 64 bit (AMD64)]",
+  "qutip": "5.0.4",
+  "robustness_order": 1,
+  "sampling_seed": 42,
+  "schema_version": 1,
+  "scipy": "1.13.1",
+  "seed": 3,
+  "sensitivity_diagnostics": {
+    "final": null,
+    "initial": null
+  },
+  "st_final_reference_outside_optimization_time": true,
+  "st_true_loss_mode": "final-only",
+  "static_coupling_pairs": [
+    [
+      1,
+      2
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      7,
+      8
+    ]
+  ],
+  "static_standard_deviation_mhz": 1.0,
+  "success": false,
+  "task": "ghz",
+  "taylor_sources": 4,
+  "time_step_us": 0.0005
+}

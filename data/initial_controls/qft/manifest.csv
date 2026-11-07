@@ -1,0 +1,11 @@
+task,n_qubits,coupling,seed,initialization_seed,attempt,nominal_loss,nominal_fidelity,error_bound,accepted,wall_time_s,iterations,success,result
+gate,3,XX+YY,0,0,1,2.677966737252291e-10,0.9999999997322033,0.01,True,11.217038800008595,24,True,results\new_experiments\exp00_nominal_seeds\qft_XX_YY_3q_300ns\gate\3q\seed0\result.npz
+gate,3,XX+YY,1,1,1,2.8226920800733524e-10,0.9999999997177308,0.01,True,11.345172599889338,22,True,results\new_experiments\exp00_nominal_seeds\qft_XX_YY_3q_300ns\gate\3q\seed1\result.npz
+gate,3,XX+YY,2,2,1,1.7221701842373704e-10,0.999999999827783,0.01,True,12.762447900138795,26,True,results\new_experiments\exp00_nominal_seeds\qft_XX_YY_3q_300ns\gate\3q\seed2\result.npz
+gate,3,XX+YY,3,3,1,1.9730928002559267e-10,0.9999999998026907,0.01,True,12.162310400046408,24,True,results\new_experiments\exp00_nominal_seeds\qft_XX_YY_3q_300ns\gate\3q\seed3\result.npz
+gate,3,XX+YY,4,4,1,1.8546386648665703e-10,0.9999999998145361,0.01,True,11.787726799957454,23,True,results\new_experiments\exp00_nominal_seeds\qft_XX_YY_3q_300ns\gate\3q\seed4\result.npz
+gate,3,XX+YY,5,5,1,2.757902795025302e-10,0.9999999997242097,0.01,True,14.528233100194484,30,True,results\new_experiments\exp00_nominal_seeds\qft_XX_YY_3q_300ns\gate\3q\seed5\result.npz
+gate,3,XX+YY,6,6,1,1.7301937660363365e-10,0.9999999998269806,0.01,True,12.565508000086993,26,True,results\new_experiments\exp00_nominal_seeds\qft_XX_YY_3q_300ns\gate\3q\seed6\result.npz
+gate,3,XX+YY,7,7,1,2.2405821642479395e-10,0.9999999997759418,0.01,True,13.11392300017178,26,True,results\new_experiments\exp00_nominal_seeds\qft_XX_YY_3q_300ns\gate\3q\seed7\result.npz
+gate,3,XX+YY,8,8,1,2.8595670276132523e-10,0.9999999997140433,0.01,True,11.952650099992752,24,True,results\new_experiments\exp00_nominal_seeds\qft_XX_YY_3q_300ns\gate\3q\seed8\result.npz
+gate,3,XX+YY,9,9,1,2.493918405122031e-10,0.9999999997506082,0.01,True,10.582591599784791,23,True,results\new_experiments\exp00_nominal_seeds\qft_XX_YY_3q_300ns\gate\3q\seed9\result.npz

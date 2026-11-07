@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "operation": "import-existing-r2-results",
+  "date": "2026-09-03",
+  "source": "results/new_experiments/exp01_multisource/ghz_XX_YY_4q_80ns_mixed_tolerance/4q/r2",
+  "destination": "results/new_experiments/exp01_multisource/ghz_XX_YY_4q_80ns_q_2/4q/r2",
+  "seeds": [0, 1, 2, 3, 4, 5, 6],
+  "methods": ["ST", "dense", "block-sparse"],
+  "validation": {
+    "configuration_difference_before_import": {
+      "max_splitting_steps": {
+        "source": 4,
+        "destination": 2
+      }
+    },
+    "source_st_final_splitting_steps": 2,
+    "source_st_observed_splitting_steps": [1, 2],
+    "initial_pulses_match_destination_r1": true,
+    "copied_file_count": 126,
+    "byte_identical_non_normalized_files": 119,
+    "skip_preflight_passed": true
+  },
+  "metadata_normalization": {
+    "files": "4q/r2/seed*/ST/metadata.json",
+    "optimization.trotter_splitting.maximum_steps": 2,
+    "propagation.maximum_splitting_steps": 2,
+    "numerical_results_modified": false
+  }
+}

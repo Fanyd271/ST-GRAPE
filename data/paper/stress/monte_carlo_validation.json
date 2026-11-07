@@ -1,0 +1,53 @@
+{
+  "completed": {
+    "9q": {
+      "seed0": [
+        "initial",
+        "ST",
+        "block-sparse",
+        "dense"
+      ],
+      "seed1": [
+        "initial",
+        "ST",
+        "block-sparse",
+        "dense"
+      ],
+      "seed2": [
+        "initial",
+        "ST",
+        "block-sparse",
+        "dense"
+      ],
+      "seed3": [
+        "initial",
+        "ST",
+        "block-sparse",
+        "dense"
+      ],
+      "seed4": [
+        "initial",
+        "ST",
+        "block-sparse",
+        "dense"
+      ],
+      "seed5": [
+        "initial",
+        "ST",
+        "block-sparse",
+        "dense"
+      ]
+    }
+  },
+  "experiment": "Experiment 03 post-run Monte Carlo validation",
+  "methods": [
+    "ST",
+    "dense",
+    "block-sparse"
+  ],
+  "optimization_rerun": false,
+  "samples_per_control": 100,
+  "sampling_seed": 42,
+  "sampling_workers": 8,
+  "schema_version": 1
+}

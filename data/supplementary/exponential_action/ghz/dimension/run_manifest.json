@@ -1,0 +1,135 @@
+{
+  "configuration": {
+    "control_seed_rule": "42 + n_qubits",
+    "coupling": "XX+YY",
+    "method": "expm_multiply",
+    "n_time_steps": 10,
+    "pre_measurement_cleanup": "gc.collect+tracemalloc.reset",
+    "qubits": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "reference_root": "results\\new_experiments\\exp02b_scaling_dimension\\ghz\\scaling_to_11qubits",
+    "repeats": 1,
+    "robustness_order": 1,
+    "scan": "dimension",
+    "smoke": false,
+    "source_count": 2,
+    "source_family": "local-z",
+    "task": "ghz",
+    "time_step_us": 0.0005,
+    "warmups": 1
+  },
+  "experiment": "E04 scipy expm_multiply scaling",
+  "runtime": {
+    "blas": {
+      "Build Dependencies": {
+        "blas": {
+          "detection method": "pkgconfig",
+          "found": true,
+          "include directory": "<original-environment>/include",
+          "lib directory": "<original-environment>/lib",
+          "name": "mkl-sdl",
+          "openblas configuration": "unknown",
+          "pc file directory": "<original-environment>/pkgconfig",
+          "version": "2023.1"
+        },
+        "lapack": {
+          "detection method": "internal",
+          "found": true,
+          "include directory": "unknown",
+          "lib directory": "unknown",
+          "name": "dep1583119523984",
+          "openblas configuration": "unknown",
+          "pc file directory": "unknown",
+          "version": "1.26.4"
+        }
+      },
+      "Compilers": {
+        "c": {
+          "commands": "cl.exe",
+          "linker": "link",
+          "name": "msvc",
+          "version": "19.29.30154"
+        },
+        "c++": {
+          "commands": "cl.exe",
+          "linker": "link",
+          "name": "msvc",
+          "version": "19.29.30154"
+        },
+        "cython": {
+          "commands": "cython",
+          "linker": "cython",
+          "name": "cython",
+          "version": "3.0.8"
+        }
+      },
+      "Machine Information": {
+        "build": {
+          "cpu": "x86_64",
+          "endian": "little",
+          "family": "x86_64",
+          "system": "windows"
+        },
+        "host": {
+          "cpu": "x86_64",
+          "endian": "little",
+          "family": "x86_64",
+          "system": "windows"
+        }
+      },
+      "Python Information": {
+        "path": "<original-environment>/python.exe",
+        "version": "3.12"
+      },
+      "SIMD Extensions": {
+        "baseline": [
+          "SSE",
+          "SSE2",
+          "SSE3"
+        ],
+        "found": [
+          "SSSE3",
+          "SSE41",
+          "POPCNT",
+          "SSE42",
+          "AVX",
+          "F16C",
+          "FMA3",
+          "AVX2"
+        ],
+        "not found": [
+          "AVX512F",
+          "AVX512CD",
+          "AVX512_SKX",
+          "AVX512_CLX",
+          "AVX512_CNL",
+          "AVX512_ICL"
+        ]
+      }
+    },
+    "cpu_count": 32,
+    "numpy": "1.26.4",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+    "python": "3.12.5 | packaged by Anaconda, Inc. | (main, Sep 12 2024, 18:18:29) [MSC v.1929 64 bit (AMD64)]",
+    "scipy": "1.13.1",
+    "thread_environment": {
+      "MKL_NUM_THREADS": null,
+      "NUMEXPR_NUM_THREADS": null,
+      "OMP_NUM_THREADS": null,
+      "OPENBLAS_NUM_THREADS": null,
+      "VECLIB_MAXIMUM_THREADS": null
+    },
+    "timing_scope": "Timings are machine-local and include online generator assembly, LinearOperator/adjoint preparation, SciPy action planning and norm estimation, propagation, objective, and approximate gradient."
+  },
+  "schema_version": 1
+}

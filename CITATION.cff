@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying Physical Review A article and acknowledge the software/data release used."
+type: software
+title: "ST-GRAPE: robust quantum control with structured Suzuki-Trotter propagation"
+version: 1.0.0
+repository-code: "https://github.com/Fanyd271/ST-GRAPE"
+url: "https://github.com/Fanyd271/ST-GRAPE/releases"
+license: MIT
+authors:
+  - family-names: Fan
+    given-names: Yidian
+  - family-names: Wu
+    given-names: Re-Bing
+preferred-citation:
+  type: article
+  title: "Efficient robust control design for high-dimensional quantum systems against multiple uncertainties using Suzuki-Trotter decomposition"
+  authors:
+    - family-names: Fan
+      given-names: Yidian
+    - family-names: Wu
+      given-names: Re-Bing
+  journal: "Physical Review A"
+  year: 2026
+  doi: 10.1103/959l-ms9v

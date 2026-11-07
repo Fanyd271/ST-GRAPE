@@ -1,0 +1,16 @@
+{
+  "runs": {
+    "dbe325b94dbf": {
+      "configuration": {
+        "colored_noise_sampling": "auto",
+        "samples_per_control": 500,
+        "sampling_api": "sample_fidelities-v1",
+        "sampling_seed": 42,
+        "schema_version": 2,
+        "source_configuration_sha256": "7c2c560dad1cfcc6221b786c10860ec7138435703a432f33ccce63e0fbec0849"
+      },
+      "directory": "samples-500_seed-42_dbe325b94dbf"
+    }
+  },
+  "schema_version": 1
+}

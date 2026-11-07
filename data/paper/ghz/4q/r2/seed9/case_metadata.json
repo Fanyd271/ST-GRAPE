@@ -1,0 +1,93 @@
+{
+  "augmented_block_counts": [
+    36,
+    7
+  ],
+  "colored_noise_validation": {
+    "requested_method": "reference-gaussian",
+    "sources": [
+      {
+        "optimization_process_variance": 32.23062991,
+        "optimization_rms_hamiltonian_coefficient": 3.1413216479141797,
+        "reference_correlation": {
+          "lower_angular_cutoff_per_time": 6.283185307179587e-05,
+          "model": "smooth-one-over-f",
+          "unnormalized_variance": 32.23619130191664,
+          "upper_angular_cutoff_per_time": 628.3185307179587
+        },
+        "reference_rms_hamiltonian_coefficient": 3.1415926535897927,
+        "resolved_method": "reference-gaussian",
+        "source_index": 0,
+        "strength": 0.5533220923245052
+      }
+    ]
+  },
+  "colored_std_mhz": 0.5,
+  "colored_weight": 0.25,
+  "control_drift_noise_enabled": true,
+  "control_drift_qubits": [
+    1,
+    3
+  ],
+  "control_drift_std": 0.05,
+  "control_drift_weight": 0.25,
+  "coupling": "XX+YY",
+  "coupling_drift_sources": 2,
+  "coupling_weight": 0.25,
+  "duration_us": 0.08,
+  "effective_p1_coefficient": 5.0,
+  "effective_p1_smoothing": null,
+  "effective_p2_coefficient": 0.2,
+  "effective_p2_smoothing": 0.05,
+  "effective_pc_coefficient": 1.0,
+  "effective_pc_smoothing": 0.001,
+  "experiment": "A heterogeneous-noise end-to-end optimization",
+  "first_order_penalty": 1.0,
+  "frequency_drift_noise_enabled": true,
+  "frequency_drift_qubits": [
+    2
+  ],
+  "frequency_drift_sources": 1,
+  "frequency_drift_std_mhz": 2.0,
+  "frequency_drift_weight": 0.25,
+  "hilbert_dimension": 16,
+  "hybrid_p1_convention": "lambda-times-p1-squared",
+  "initial_seed_path": "results\\new_experiments\\exp00_nominal_seeds\\ghz_XX_YY_4q_80ns\\state\\4q\\seed9\\result.npz",
+  "initial_source": "generated",
+  "monte_carlo_samples": 10000,
+  "n_qubits": 4,
+  "non_markovian_noise_enabled": true,
+  "non_markovian_qubit": 4,
+  "p1_coefficient": 5.0,
+  "p1_smoothing": null,
+  "p2_coefficient": 0.2,
+  "p2_smoothing": 0.05,
+  "pc_coefficient": 1.0,
+  "pc_smoothing": 0.001,
+  "penalty_mode": "hybrid",
+  "quasistatic_sources": 3,
+  "resolved_taylor_degree_multipliers": [
+    1.0,
+    2.9767441860465116
+  ],
+  "rms_smoothing": 1e-12,
+  "robustness_order": 2,
+  "sampling_seed": 42,
+  "second_order_penalty": 1.0,
+  "seed": 9,
+  "static_coupling_pairs": [
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      3
+    ]
+  ],
+  "static_noise_enabled": true,
+  "static_std_mhz": 2.0,
+  "task": "ghz",
+  "taylor_sources": 7,
+  "time_step_us": 0.0005
+}

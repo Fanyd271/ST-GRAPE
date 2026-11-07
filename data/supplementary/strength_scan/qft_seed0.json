@@ -1,0 +1,24 @@
+{
+  "colored_noise_sampling": "reference-gaussian",
+  "control_paths": {
+    "initial": "data/paper/qft/3q/r1/seed0/initial_pulse.npz",
+    "r1": "data/paper/qft/3q/r1/seed0/ST/result.npz",
+    "r2": "data/paper/qft/3q/r2/seed0/ST/result.npz"
+  },
+  "control_sha256": {
+    "initial": "c10a642f09046a67db1c2d6b7b842e0cc8c7166004f5c8cb343b1e772e260e46",
+    "r1": "424f3fc15b389695021f0d4b4d97065d88f06b1ff8d85027df09572515df46a4",
+    "r2": "c73995d8a1243e8eb55bd22ba3fc65f50deb1bccc538be8b05bc765cff21626c"
+  },
+  "elapsed_seconds": 26.999621958937496,
+  "manifest": "data/paper/qft/run_manifest.json",
+  "manifest_sha256": "0f96c1eb8e50902d2484306b191ba9b2c4e5d10bf26c0799eac58909f933ac0d",
+  "n_qubits": 3,
+  "pairing": "same standardized draws for all controls and strengths",
+  "pulse_seed": 0,
+  "samples_per_nonzero_strength": 500,
+  "sampling_seed": 42,
+  "task": "qft",
+  "workers": 8,
+  "zero_strength": "one nominal evaluation per control, broadcast to all samples"
+}

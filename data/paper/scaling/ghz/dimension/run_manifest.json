@@ -1,0 +1,42 @@
+{
+  "configuration": {
+    "augmented_blocks": 3,
+    "control_seed": 42,
+    "coupling": "XX+YY",
+    "n_time_steps": 10,
+    "ode_atol": 1e-11,
+    "ode_method": "dop853",
+    "ode_rtol": 1e-09,
+    "pre_measurement_cleanup": "gc.collect+tracemalloc.reset",
+    "qubits": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "repeats": 1,
+    "robustness_order": 1,
+    "smoke": false,
+    "source_count": 2,
+    "source_family": "local-z",
+    "splitting_steps": 1,
+    "task": "ghz",
+    "time_step_us": 0.0005,
+    "warmups": 1
+  },
+  "experiment": "B2 Hilbert-dimension scaling",
+  "runtime": {
+    "numpy": "1.26.4",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+    "python": "3.12.5 | packaged by Anaconda, Inc. | (main, Sep 12 2024, 18:18:29) [MSC v.1929 64 bit (AMD64)]",
+    "qutip": "5.0.4",
+    "scipy": "1.13.1"
+  },
+  "schema_version": 1
+}

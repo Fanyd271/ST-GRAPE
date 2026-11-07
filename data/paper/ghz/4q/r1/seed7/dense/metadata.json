@@ -1,0 +1,178 @@
+{
+  "augmented_block_counts": [
+    8,
+    7
+  ],
+  "colored_noise_validation": {
+    "requested_method": "reference-gaussian",
+    "sources": [
+      {
+        "optimization_process_variance": 32.23062991,
+        "optimization_rms_hamiltonian_coefficient": 3.1413216479141797,
+        "reference_correlation": {
+          "lower_angular_cutoff_per_time": 6.283185307179587e-05,
+          "model": "smooth-one-over-f",
+          "unnormalized_variance": 32.23619130191664,
+          "upper_angular_cutoff_per_time": 628.3185307179587
+        },
+        "reference_rms_hamiltonian_coefficient": 3.1415926535897927,
+        "resolved_method": "reference-gaussian",
+        "source_index": 0,
+        "strength": 0.5533220923245052
+      }
+    ]
+  },
+  "colored_std_mhz": 0.5,
+  "colored_weight": 0.25,
+  "control_drift_noise_enabled": true,
+  "control_drift_qubits": [
+    1,
+    3
+  ],
+  "control_drift_std": 0.05,
+  "control_drift_weight": 0.25,
+  "coupling": "XX+YY",
+  "coupling_drift_sources": 2,
+  "coupling_weight": 0.25,
+  "duration_us": 0.08,
+  "effective_p1_coefficient": 5.0,
+  "effective_p1_smoothing": null,
+  "effective_p2_coefficient": 0.2,
+  "effective_p2_smoothing": 0.05,
+  "effective_pc_coefficient": 1.0,
+  "effective_pc_smoothing": 0.001,
+  "end_to_end_wall_time_s": 719.4380004999693,
+  "experiment": "A heterogeneous-noise end-to-end optimization",
+  "experiment_method": "dense",
+  "first_order_penalty": 1.0,
+  "frequency_drift_noise_enabled": true,
+  "frequency_drift_qubits": [
+    2
+  ],
+  "frequency_drift_sources": 1,
+  "frequency_drift_std_mhz": 2.0,
+  "frequency_drift_weight": 0.25,
+  "hilbert_dimension": 16,
+  "hybrid_p1_convention": "lambda-times-p1-squared",
+  "initial_seed_path": "results\\new_experiments\\exp00_nominal_seeds\\ghz_XX_YY_4q_80ns\\state\\4q\\seed7\\result.npz",
+  "initial_source": "generated",
+  "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+  "method": "GRAPE",
+  "monte_carlo_samples": 10000,
+  "n_qubits": 4,
+  "non_markovian_noise_enabled": true,
+  "non_markovian_qubit": 4,
+  "numpy": "1.26.4",
+  "optimization": {
+    "algorithm": "grape",
+    "optimizer": {
+      "effective_max_function_evaluations": 2147483647,
+      "function_tolerance": 1e-14,
+      "gradient_tolerance": 1e-14,
+      "max_control_amplitude": 628.3185307179587,
+      "max_corrections": 20,
+      "max_function_evaluations": null,
+      "max_iterations": 100000,
+      "method": "L-BFGS-B"
+    },
+    "propagation": {
+      "normalize_output": false,
+      "representation": "dense",
+      "solver": {
+        "atol": 1e-11,
+        "first_step": null,
+        "implementation": "scipy.integrate.solve_ivp",
+        "max_step": "inf",
+        "method": "dop853",
+        "preset": "qiskit-dop853-tight",
+        "rtol": 1e-09
+      }
+    },
+    "time_limit_seconds": 36000.0,
+    "trotter_splitting": {
+      "absolute_tolerance": 2e-05,
+      "adaptive": false,
+      "error_criterion": "absolute-plus-relative",
+      "initial_steps": 1,
+      "maximum_steps": 1,
+      "relative_tolerance": 0.15
+    },
+    "true_loss_safeguard": {
+      "absolute_tolerance": 1e-08,
+      "check_interval": 25,
+      "final_evaluation": true,
+      "increase_patience": 2,
+      "relative_tolerance": 0.001
+    }
+  },
+  "p1_coefficient": 5.0,
+  "p1_smoothing": null,
+  "p2_coefficient": 0.2,
+  "p2_smoothing": 0.05,
+  "pc_coefficient": 1.0,
+  "pc_smoothing": 0.001,
+  "penalty_mode": "hybrid",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "propagation": {
+    "normalize_output": false,
+    "representation": "dense",
+    "solver": {
+      "atol": 1e-11,
+      "first_step": null,
+      "implementation": "scipy.integrate.solve_ivp",
+      "max_step": "inf",
+      "method": "dop853",
+      "preset": "qiskit-dop853-tight",
+      "rtol": 1e-09
+    }
+  },
+  "python": "3.12.5 | packaged by Anaconda, Inc. | (main, Sep 12 2024, 18:18:29) [MSC v.1929 64 bit (AMD64)]",
+  "quasistatic_sources": 3,
+  "qutip": "5.0.4",
+  "resolved_taylor_degree_multipliers": [
+    1.0
+  ],
+  "rms_smoothing": 1e-12,
+  "robustness_order": 1,
+  "sampling_seed": 42,
+  "schema_version": 1,
+  "scipy": "1.13.1",
+  "second_order_penalty": 1.0,
+  "seed": 7,
+  "sensitivity_diagnostics": {
+    "final": {
+      "evaluated_order": 2,
+      "hybrid_p1_base": 5.146067674515617e-05,
+      "p1": 0.007173609743020328,
+      "p1_squared": 5.146067674515617e-05,
+      "p2": 0.1938853168005291,
+      "reference": "exact-ode-block-sparse",
+      "rhs_evaluations": 3836
+    },
+    "initial": {
+      "evaluated_order": 2,
+      "hybrid_p1_base": 0.5304051073296677,
+      "p1": 0.7282891646383789,
+      "p1_squared": 0.5304051073296677,
+      "p2": 0.6017281652013393,
+      "reference": "exact-ode-block-sparse",
+      "rhs_evaluations": 2840
+    }
+  },
+  "static_coupling_pairs": [
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      3
+    ]
+  ],
+  "static_noise_enabled": true,
+  "static_std_mhz": 2.0,
+  "success": true,
+  "task": "ghz",
+  "taylor_sources": 7,
+  "time_step_us": 0.0005
+}

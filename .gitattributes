@@ -1,0 +1,17 @@
+* text=auto
+
+*.py text eol=lf
+*.toml text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.cff text eol=lf
+*.json text eol=lf
+
+*.npz binary
+*.npy binary
+*.pdf binary
+*.png binary
+
+# Preserve archived checksums across platforms, including text metadata.
+data/** -text

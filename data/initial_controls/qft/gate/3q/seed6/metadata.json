@@ -1,0 +1,100 @@
+{
+  "attempt": 1,
+  "coupling": "XX+YY",
+  "duration_us": 0.3,
+  "end_to_end_wall_time_s": 12.565508000086993,
+  "experiment": "E00 nominal seeds",
+  "initialization_seed": 6,
+  "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+  "method": "GRAPE",
+  "n_qubits": 3,
+  "n_time_steps": 600,
+  "nominal_error_bound": 0.01,
+  "numpy": "1.26.4",
+  "optimization": {
+    "algorithm": "grape",
+    "optimizer": {
+      "effective_max_function_evaluations": 2147483647,
+      "function_tolerance": 1e-10,
+      "gradient_tolerance": 1e-10,
+      "max_control_amplitude": 628.3185307179587,
+      "max_corrections": 20,
+      "max_function_evaluations": null,
+      "max_iterations": 100000,
+      "method": "L-BFGS-B"
+    },
+    "propagation": {
+      "normalize_output": false,
+      "representation": "dense",
+      "solver": {
+        "atol": 1e-11,
+        "first_step": null,
+        "implementation": "scipy.integrate.solve_ivp",
+        "max_step": "inf",
+        "method": "dop853",
+        "preset": "qiskit-dop853-tight",
+        "rtol": 1e-09
+      }
+    },
+    "time_limit_seconds": null,
+    "trotter_splitting": {
+      "absolute_tolerance": 2e-05,
+      "adaptive": false,
+      "error_criterion": "absolute-plus-relative",
+      "initial_steps": 1,
+      "maximum_steps": 1,
+      "relative_tolerance": 0.15
+    },
+    "true_loss_safeguard": {
+      "absolute_tolerance": 1e-08,
+      "check_interval": 25,
+      "final_evaluation": true,
+      "increase_patience": 2,
+      "relative_tolerance": 0.001
+    }
+  },
+  "paper_scope": "initial controls for Tables I-V",
+  "parallel_workers": 10,
+  "platform": "Windows-11-10.0.26200-SP0",
+  "propagation": {
+    "normalize_output": false,
+    "representation": "dense",
+    "solver": {
+      "atol": 1e-11,
+      "first_step": null,
+      "implementation": "scipy.integrate.solve_ivp",
+      "max_step": "inf",
+      "method": "dop853",
+      "preset": "qiskit-dop853-tight",
+      "rtol": 1e-09
+    }
+  },
+  "pulse": {
+    "control_basis": "pwc",
+    "control_chain": [
+      "PWC",
+      "LTI",
+      "envelope"
+    ],
+    "cutoff_frequency_mhz": 60.0,
+    "envelope": "Blackman",
+    "filter_kernel": null,
+    "filter_taps": 10,
+    "initial_frequency_range_mhz": [
+      1.0,
+      30.0
+    ],
+    "initial_max_amplitude_mhz": 30.0,
+    "n_waves": 10,
+    "parameter_count_per_control": 591,
+    "rise_time_us": 0.01
+  },
+  "python": "3.12.5 | packaged by Anaconda, Inc. | (main, Sep 12 2024, 18:18:29) [MSC v.1929 64 bit (AMD64)]",
+  "qutip": "5.0.4",
+  "schema_version": 1,
+  "scipy": "1.13.1",
+  "seed": 6,
+  "success": true,
+  "task": "gate",
+  "time_step_us": 0.0005
+}

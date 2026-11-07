@@ -1,0 +1,32 @@
+{
+  "configuration": {
+    "chebyshev_k": null,
+    "control_basis": "pwc",
+    "coupling": "XX+YY",
+    "duration_us": 0.2,
+    "error_bound": 0.01,
+    "ftol": 1e-10,
+    "gtol": 1e-10,
+    "log_interval": 20,
+    "max_attempts_per_seed": 0,
+    "max_iterations": 100000,
+    "ode": {
+      "normalize_output": false,
+      "representation": "dense",
+      "solver": {
+        "atol": 1e-11,
+        "first_step": null,
+        "implementation": "scipy.integrate.solve_ivp",
+        "max_step": "inf",
+        "method": "dop853",
+        "preset": "qiskit-dop853-tight",
+        "rtol": 1e-09
+      }
+    },
+    "smoke": false,
+    "time_limit_hours": null,
+    "time_step_us": 0.0005
+  },
+  "experiment": "E00 nominal seeds",
+  "schema_version": 1
+}

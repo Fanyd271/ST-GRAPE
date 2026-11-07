@@ -1,0 +1,24 @@
+{
+  "colored_noise_sampling": "reference-gaussian",
+  "control_paths": {
+    "initial": "data/paper/ghz/4q/r1/seed0/initial_pulse.npz",
+    "r1": "data/paper/ghz/4q/r1/seed0/ST/result.npz",
+    "r2": "data/paper/ghz/4q/r2/seed0/ST/result.npz"
+  },
+  "control_sha256": {
+    "initial": "f384551b76537c423aba5f62a1b1c298f89c97aa41d09d25c80b69080f1b59c0",
+    "r1": "f27b50b6362423d99b01766722a8792f614f4298f4c7e945c7efd158ed88b242",
+    "r2": "bea8b5c82523cc4eab983901c3e8389ed83d923280509fb4c77de9d2d3358600"
+  },
+  "elapsed_seconds": 15.557450875174254,
+  "manifest": "data/paper/ghz/run_manifest.json",
+  "manifest_sha256": "8ab5e582b230b95c29e5c50cc7b8cbe264137e7da9248073f2d8edc12b7fd786",
+  "n_qubits": 4,
+  "pairing": "same standardized draws for all controls and strengths",
+  "pulse_seed": 0,
+  "samples_per_nonzero_strength": 500,
+  "sampling_seed": 42,
+  "task": "ghz",
+  "workers": 8,
+  "zero_strength": "one nominal evaluation per control, broadcast to all samples"
+}

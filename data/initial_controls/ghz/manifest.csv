@@ -1,0 +1,11 @@
+task,n_qubits,coupling,seed,initialization_seed,attempt,nominal_loss,nominal_fidelity,error_bound,accepted,wall_time_s,iterations,success,result
+state,4,XX+YY,0,0,1,1.668485349881621e-10,0.9999999998331515,0.01,True,2.7075489999260753,21,True,results\new_experiments\exp00_nominal_seeds\ghz_XX_YY_4q_80ns\state\4q\seed0\result.npz
+state,4,XX+YY,1,1,1,9.329337302688145e-11,0.9999999999067066,0.01,True,2.530090499902144,19,True,results\new_experiments\exp00_nominal_seeds\ghz_XX_YY_4q_80ns\state\4q\seed1\result.npz
+state,4,XX+YY,2,2,1,5.742317732426727e-11,0.9999999999425768,0.01,True,2.588110800134018,21,True,results\new_experiments\exp00_nominal_seeds\ghz_XX_YY_4q_80ns\state\4q\seed2\result.npz
+state,4,XX+YY,3,3,1,1.8965606862764162e-10,0.9999999998103439,0.01,True,2.90734519995749,20,True,results\new_experiments\exp00_nominal_seeds\ghz_XX_YY_4q_80ns\state\4q\seed3\result.npz
+state,4,XX+YY,4,4,1,9.589040672608462e-11,0.9999999999041096,0.01,True,2.6862198000308126,20,True,results\new_experiments\exp00_nominal_seeds\ghz_XX_YY_4q_80ns\state\4q\seed4\result.npz
+state,4,XX+YY,5,5,1,3.181566121668311e-11,0.9999999999681843,0.01,True,2.319041399983689,18,True,results\new_experiments\exp00_nominal_seeds\ghz_XX_YY_4q_80ns\state\4q\seed5\result.npz
+state,4,XX+YY,6,6,1,8.543765694923877e-11,0.9999999999145623,0.01,True,2.9675390000920743,21,True,results\new_experiments\exp00_nominal_seeds\ghz_XX_YY_4q_80ns\state\4q\seed6\result.npz
+state,4,XX+YY,7,7,1,1.8662005274450166e-10,0.99999999981338,0.01,True,2.5553257998544723,18,True,results\new_experiments\exp00_nominal_seeds\ghz_XX_YY_4q_80ns\state\4q\seed7\result.npz
+state,4,XX+YY,8,8,1,6.299072374815751e-11,0.9999999999370093,0.01,True,2.467640200164169,19,True,results\new_experiments\exp00_nominal_seeds\ghz_XX_YY_4q_80ns\state\4q\seed8\result.npz
+state,4,XX+YY,9,9,1,9.484391050307295e-11,0.9999999999051561,0.01,True,2.6198193999007344,22,True,results\new_experiments\exp00_nominal_seeds\ghz_XX_YY_4q_80ns\state\4q\seed9\result.npz

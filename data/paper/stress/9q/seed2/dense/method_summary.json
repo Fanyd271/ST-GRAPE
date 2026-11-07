@@ -1,0 +1,20 @@
+{
+  "final_nominal_fidelity": 0.975998053351775,
+  "final_robustness_penalty": 0.19049260289949185,
+  "initial_true_loss": 0.5758850394393479,
+  "method": "dense",
+  "post_run_true_loss_wall_time_s": null,
+  "sampling": {
+    "mean_fidelity": 0.8046401839618337,
+    "median_fidelity": 0.8306889842035183,
+    "minimum_fidelity": 0.33870240905716203,
+    "std_fidelity": 0.11083682836706149
+  },
+  "sensitivity_diagnostics": {
+    "final": null,
+    "initial": null
+  },
+  "true_loss": 0.21449454954771682,
+  "true_objective": 0.7855054504522831,
+  "wall_time_s": 36047.10820440017
+}
